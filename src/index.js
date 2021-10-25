@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {AppEcommerce} from './AppEcommerce'
+import {AppEcommerce} from './AppEcommerce';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   
