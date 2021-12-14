@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { initialDetails } from '../../../data/data';
+import { SearchComponent } from '../../search/SearchComponent';
+
 
 export const HomeScreen = () => {
+    
     return (
         <div>
-            <h1>esta es la pantalla inicial</h1>
+            <SearchComponent details={initialDetails}/>
         </div>
     )
 }
