@@ -6,8 +6,9 @@ export const CardAllProduct= ({product}) => {
         <Card style={{width: '18rem', display:'inline-block'}}>
             <Card.Img variant='top' src={product.img} alt={product.name} />
                 <Card.Body>
-                    <Card.Title>{product.name}</Card.Title>
-                    <Card.Text>{product.description}</Card.Text>
+                    <Card.Title>{product.nombre}</Card.Title>
+                    <Card.Text>{product.descricion}</Card.Text>
+                    <Card.Text>precio:{product.price}</Card.Text>
                     <Button variant='danger'>agregar al carrito</Button>
                 </Card.Body>
         </Card>

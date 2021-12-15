@@ -12,11 +12,11 @@ export const SearchComponent = ({details}) => {
     const filteredProduct = details.filter(product => {
         return (
             product
-            .name
+            .nombre
             .toLowerCase()
             .includes(searchField.toLowerCase())||
             product
-            .description
+            .descripcion
             .toLowerCase()
             .includes(searchField.toLowerCase())
         )
